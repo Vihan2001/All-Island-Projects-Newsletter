@@ -1,0 +1,49 @@
+feeds:
+  # Procurement / notices
+  - url: https://www.eu-supply.com/ctm/Supplier/PublicTenders?B=ETENDERS_SIMPLE&output=rss
+    sector: "Procurement"
+    region: "ROI"
+    source: "eTenders"
+  # If you maintain your own curated RSS (recommended), add it here as well.
+
+  # Energy & utilities (examples — replace/extend with the feeds you verify)
+  - url: https://www.esbnetworks.ie/about-us/newsroom/rss
+    sector: "Energy & Utilities"
+    region: "ROI"
+    source: "ESB Networks"
+  - url: https://www.gasnetworks.ie/news/rss
+    sector: "Energy & Utilities"
+    region: "ROI"
+    source: "Gas Networks Ireland"
+
+  # Enterprise / FDI
+  - url: https://www.idaireland.com/latest-news/press-release/rss
+    sector: "FDI & Industry"
+    region: "ROI"
+    source: "IDA Ireland"
+  - url: https://www.investni.com/media-centre/news/rss
+    sector: "FDI & Industry"
+    region: "NI"
+    source: "Invest NI"
+
+  # Government / policy
+  - url: https://www.gov.ie/en/news/feeds/rss/
+    sector: "Government"
+    region: "ROI"
+    source: "gov.ie News"
+  - url: https://www.infrastructure-ni.gov.uk/news/rss.xml
+    sector: "Transport & Infrastructure"
+    region: "NI"
+    source: "DfI NI"
+
+  # Transport (examples)
+  - url: https://www.nationaltransport.ie/feed/
+    sector: "Transport & Infrastructure"
+    region: "ROI"
+    source: "NTA"
+
+  # Water (example)
+  - url: https://www.water.ie/news/rss
+    sector: "Water & Wastewater"
+    region: "ROI"
+    source: "Uisce Éireann"
